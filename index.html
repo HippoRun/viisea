@@ -1,70 +1,412 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="styles" type="text/css" media="screen" href="styles/styles.css" />
-    <script src="main.js"></script>
-    <meta name="keywords" content="VII SEA VOYAGE Official Site, Post-Hardcore, Punk, Metalcore, Local Artist, Rock Band, Denver, CO."></meta>
-    <title>VII SEA VOYAGE</title>
-    <!-- <meta name="google-site-verification" content="" /> -->
-    <!-- <meta name="p:domain_verify" content=""/> -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VII SEA VOYAGE</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-<!-- Facebook Pixel Code -->
+  <!-- Favicons
+    ================================================== -->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
-<!-- Waiting on Sam for FB Code-->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
-<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebSite","name":"VII Sea Voyage","url":"https:\/\/siiseavoyage.com\/"}</script>
-<meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="2spxXCV2RgFg1rKpdNk6BNL88gGgZECEAB/fF8L1T7Pac4ePVbhcy04Lwi4UoocojxoUiKakkVG4V2Xq/zGOeA==" />
+  <!-- Stylesheet
+    ================================================== -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+  <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
-    <head>
-        <style>
-            ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-                background-color: #333;
-            }
-            li {
-                float: left;
-            }
-            li a {
-                display:block;
-                color: white;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-            }
-            li a:hover {
-                background-color: #111;
-            }
-        </style>
-    </Head>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-<body>
-    <h1><text-align: center;>SII SEA VOYAGE</text-align:></h1>
-    <ul>
-        <li>
-    <div class="navigation-bar">
-        <div id="navigation-container">
-            <img src="./styles/img/logo.jpg" alt="SII Sea Voyage Logo"
-            style="width: 50px; height: 50px;"></li>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+  <!-- Header -->
+  <header id="header">
+    <div class="intro">
+      <div class="container">
+        <div class="row">
+          <div class="intro-text">
+            <h1>VII SEA VOYAGE</h1>
+            <hr>
+            <p>Denver Rock Band</p>
+            <a href="#about" class="btn  btn-intro btn-lg page-scroll">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Navigation -->
+  <div id="nav">
+    <nav class="navbar navbar-custom">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+            <i class="fa fa-bars"></i>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-main-collapse">
+          <ul class="nav navbar-nav">
+            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            <li class="hidden">
+              <a href="#page-top"></a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#about">About</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#portfolio">Music</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- About Section -->
+  <div id="about">
+    <div class="container">
+      <div class="section-title text-center center">
+        <h2>About Us</h2>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img src="img/about.jpg" class="img-responsive about-img">
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+          <div class="about-text">
+            <p> Need to add information about the band </p>
+            </p>
+            <a href="#portfolio" class="btn btn-default btn-lg page-scroll">Music</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio Section -->
+  <div id="portfolio">
+    <div class="container">
+      <div class="section-title text-center center">
+        <h2>Music</h2>
+        <hr>
+      </div>
+      <div class="categories">
+        <ul class="cat">
+          <li>
+            <ol class="type">
+              <li>
+                <a href="#" data-filter="*" class="active">All</a>
+              </li>
+              <li>
+                <a href="#" data-filter=".graphic">Javascript</a>
+              </li>
+              <li>
+                <a href="#" data-filter=".illustration">Node.js</a>
+              </li>
+              <li>
+                <a href="#" data-filter=".photography">Firebase</a>
+              </li>
+              <li>
+                <a href="#" data-filter=".mongo">Mongo</a>
+              </li>
+              <li>
+                <a href="#" data-filter=".sql">SQL</a>
+              </li>
+              <li>
+                <a href="#" data-filter=".react">React</a>
+              </li>
+            </ol>
+          </li>
+        </ul>
+        <div class="clearfix"></div>
+      </div>
+      <div class="row">
+        <div class="portfolio-items">
+
+          <div class="col-sm-6 col-md-3 col-lg-3 graphic">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <a href="https://katharinearnold.github.io/Word-Guess-Game/" title="Project Title"
+                  data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>Word Guess Game</h4>
+                  </div>
+                  <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Project Title">
+                </a>
+              </div>
+            </div>
+            <p>Play the traditional word guessing game using famous dog names</p>
+            <a class="github" href="https://github.com/KatharineArnold/Word-Guess-Game">View GitHub Code</a>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-3 graphic">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <a href="https://katharinearnold.github.io/unit-4-game/" title="Project Title" data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>Crystals Game</h4>
+                  </div>
+                  <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="Project Title">
+                </a>
+              </div>
+            </div>
+            <p>Javascript based game using random numbers to challenge users</p>
+            <a class="github" href="https://github.com/KatharineArnold/unit-4-game">View GitHub Code</a>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-3 graphic">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <a href="https://katharinearnold.github.io/TriviaGame/" title="Project Title" data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>Trivia game</h4>
+                  </div>
+                  <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title">
+                </a>
+              </div>
+            </div>
+            <p>Trivia game using javascript timers to present a challenge</p>
+            <a class="github" href="https://github.com/KatharineArnold/TriviaGame">View GitHub Code</a>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-3 graphic">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <a href="https://katharinearnold.github.io/GifTastic/." title="Project Title" data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>Giftastic</h4>
+                  </div>
+                  <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title">
+                </a>
+              </div>
+            </div>
+            <p>App for searching through giphys utilizing Giphy API</p>
+            <a class="github" href="https://github.com/KatharineArnold/GifTastic">View GitHub Code</a>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-3 photography">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <a href="https://katharinearnold.github.io/Train-Scheduler/" title="Project Title"
+                  data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>Train Scheduling</h4>
+                  </div>
+                  <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Project Title">
+                </a>
+              </div>
+            </div>
+            <p>Train time scheduling app using moment.js and Firebase Database</p>
+            <a class="github" href="https://github.com/KatharineArnold/Train-Scheduler">View GitHub Code</a>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-3 photography">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <a href="https://katharinearnold.github.io/group-project-1/" title="Project Title"
+                  data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>Hike It Up!</h4>
+                  </div>
+                  <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Project Title">
+                </a>
+              </div>
+            </div>
+            <p>Allows for effortless discovery of hiking trails near a searched city</p>
+            <a class="github" href="https://github.com/KatharineArnold/hike-it-up">View GitHub Code</a>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-3 illustration">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <a href="https://friend-finder-kha.herokuapp.com/" title="Project Title" data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>Friend Finder</h4>
+                  </div>
+                  <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title">
+                </a>
+              </div>
+            </div>
+            <p>Take the survey and find friends similar to you with a live Node and Express app</p>
+            <a class="github" href="https://github.com/KatharineArnold/friend-finder">View GitHub Code</a>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-3 sql illustration">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <a href="https://cheeseburgers-in-paradise.herokuapp.com/" title="Project Title" data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>Cheesburgers In Paradise</h4>
+                  </div>
+                  <img src="img/portfolio/09-small.jpg" class="img-responsive" alt="Project Title">
+                </a>
+              </div>
+            </div>
+            <p>Create a burger with this full-stack application</p>
+            <a class="github" href="https://github.com/KatharineArnold/burger">View GitHub Code</a>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-3  illustration sql">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <a href="https://code-gap.herokuapp.com/" title="Code Gap" data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>Code Gap</h4>
+                  </div>
+                  <img src="img/portfolio/10-small.jpg" class="img-responsive" alt="Code Gap">
+                </a>
+              </div>
+            </div>
+            <p>Code Gap bridges the gap between Software Developers hungry for experience and organizations in need of
+              skilled volunteers</p>
+            <a class="github" href="https://github.com/KatharineArnold/code-gap">View GitHub Code</a>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-3 mongo">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <a href="https://mongo-scrape-du.herokuapp.com/" title="MongoScraper" data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>Mongo Scraper</h4>
+                  </div>
+                  <img src="img/portfolio/11-small.jpg" class="img-responsive" alt="MongoScraper">
+                </a>
+              </div>
+            </div>
+            <p>Scrapes articles from the TechCrunch website, allows users to save articles and leave
+              comments
+              on the latest news</p>
+            <a class="github" href="https://github.com/KatharineArnold/mongo-scrape">View GitHub Code</a>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-3 react">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <a href="https://katharinearnold.github.io/puppy-click-game/" title="puppy click game"
+                  data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>Puppy Click Game</h4>
+                  </div>
+                  <img src="img/portfolio/12-small.jpg" class="img-responsive" alt="Project Title">
+                </a>
+              </div>
+            </div>
+            <p>A React.js front end game using a JSON file to store data and difficult image memory tasks to challenge
+              the user</p>
+            <a class="github" href="https://github.com/KatharineArnold/puppy-click-game">View GitHub Code</a>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-3 react mongo illustration">
+            <div class="portfolio-item">
+              <div class="hover-bg">
+                <a href="https://poll-pal.herokuapp.com/" title="poll pal" data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>Poll Pal</h4>
+                  </div>
+                  <img src="img/portfolio/13-small.jpg" class="img-responsive" alt="poll pal">
+                </a>
+              </div>
+            </div>
+            <p>Users area able to search by zip code for their state and district candidates and ballot measures. This
+              helps to make informed decisions less daunting when it comes time to vote</p>
+            <a class="github" href="https://github.com/poll-pal/poll-pal">View GitHub Code</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <!-- Contact Section -->
+  <div id="contact" class="text-center">
+    <div class="container">
+      <div class="section-title center">
+        <h2>Get In Touch</h2>
+        <hr>
+      </div>
+
+      <div class="col-md-12 text-center">
+        <img src="img/contact.jpg" class="img-responsive contact-img">
+      </div>
 
 
-        <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#tickets">TICKETS</a></li>
-        <li><a href="#mysic">MUSIC</a></li>
-        <li><a href="#vidoes">VIDEOS</a></li>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#photos">PHOTOS</a></li>
-        <li><a href="#store">STORE</a></li>
-        <li><a href="#press">CONTACT</a></li>
-    </ul>
-</div>
-</div>
-    
+      <div class="col-md-8 col-md-offset-2">
+        <p class="emailContact">
+          <a class="emailContact" href="mailto:mayradlopezh@gmail.com?Subject=KHA%20SIISEAVOAGE" target="_top">Send Us
+            An
+            Email
+          </a>
+        </p>
+
+
+
+        <div class="social">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/sevenseavoyage/">
+                <i class="fa fa-facebook fa-4x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/viiseavoyage/">
+                <i class="fa fa-instagram fa-4x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/SevenSeaVoyage">
+                <i class="fa fa-twitter fa-4x"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div id="footer">
+      <div class="container text-center">
+        <div class="fnav">
+          <p>Copyright &copy; Magnum. Designed by
+            <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a>
+          </p>
+        </div>
+      </div>
+    </div> -->
+  <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/SmoothScroll.js"></script>
+  <script type="text/javascript" src="js/nivo-lightbox.js"></script>
+  <script type="text/javascript" src="js/jquery.isotope.js"></script>
+  <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+  <script type="text/javascript" src="js/contact_me.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
+
 </html>
